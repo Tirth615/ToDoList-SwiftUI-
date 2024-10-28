@@ -6,7 +6,7 @@ struct ContentView: View {
     @StateObject private var viewModel = TodoListViewModel()
     var body: some View {
         VStack {
-            Text("Todo List 📝")
+            Text("List Of Today ")
                 .font(.largeTitle)
                 .padding()
             List {
