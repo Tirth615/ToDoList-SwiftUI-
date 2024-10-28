@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct TodoItem: Identifiable, Codable {
+    var id = UUID()
+    let title: String
+    var isComplete = false
+}
